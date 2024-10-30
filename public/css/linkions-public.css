@@ -1,0 +1,75 @@
+body {
+  font-family: system-ui;
+  font-size: 16px;
+}
+.linkions-profile-wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.linkions-profile-img {
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border-radius: 50%;
+}
+.linkions-profile-title {
+  font-size: 3rem;
+}
+.linkions-social-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 0.15em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.linkions-social-item a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  vertical-align: middle;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.linkions-social-item a.twitter {
+  background: url(../img/social-icons-svg/twitter.svg);
+}
+.linkions-social-item a.pinterest {
+  background: url(../img/social-icons-svg/pinterest.svg);
+}
+.linkions-social-item a.behance {
+  background: url(../img/social-icons-svg/behance.svg);
+}
+.linkions-social-item a.github {
+  background: url(../img/social-icons-svg/github.svg);
+}
+.linkions-social-item a.linkedin {
+  background: url(../img/social-icons-svg/linkedin.svg);
+}
+.linkions-social-item a.facebook {
+  background: url(../img/social-icons-svg/facebook.svg);
+}
+.linkions-social-item a.instagram {
+  background: url(../img/social-icons-svg/instagram.svg);
+}
+.linkions-social-item a.youtube {
+  background: url(../img/social-icons-svg/youtube.svg);
+}
+
+.linkions-social-item a:hover {
+  /* background-position: left -34px; */
+  width: 26px;
+  height: 26px;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+}
